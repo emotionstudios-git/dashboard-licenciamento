@@ -9,6 +9,3 @@ name = "dashboard-licenciamento"
 binding = "DB"
 database_name = "dashboard-licenciamento-db"
 database_id = "TBD"
-
-[[triggers.scheduled]]
-crons = ["0 0 * * *"]
