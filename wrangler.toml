@@ -8,4 +8,4 @@ name = "dashboard-licenciamento"
 [[d1_databases]]
 binding = "DB"
 database_name = "dashboard-licenciamento-db"
-database_id = "TBD"
+database_id = "f1362dcb-f847-4d6c-8a84-50ff7d41e0ac"
