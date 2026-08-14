@@ -1,0 +1,3 @@
+# Copiar pra .dev.vars e preencher
+JWT_SECRET=seu-secret-aqui
+CF_ACCESS_POLICY=TBD
