@@ -1,9 +1,11 @@
 name = "dashboard-licenciamento"
 pages_build_output_dir = "dist"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
 
 # Sem `pages_build_output_dir` o wrangler IGNORA este arquivo inteiro no
 # `pages deploy` (avisa e segue) — foi assim que o binding do D1 não subiu
-# no primeiro deploy e a API quebrou com env.DB undefined.
+# num deploy anterior e a API quebrou com env.DB undefined.
 [[d1_databases]]
 binding = "DB"
 database_name = "dashboard-licenciamento-db"
